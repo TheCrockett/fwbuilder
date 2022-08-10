@@ -309,7 +309,7 @@ void ObjConflictResolutionDialog::reject()
 {
   if (fwbdebug)
     qDebug("ObjConflictResolutionDialog::reject(): isVisible=%d",
-	   isVisible());
+           isVisible());
 
     QDialog::reject();
 }
